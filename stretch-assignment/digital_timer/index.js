@@ -9,11 +9,11 @@ let hours=0;
 function stopWatch(){
     seconds++;
 
-    // SECOND NUMBER RESET
+    // SECOND NUMBER RESET // NOT REALLY NEEDED SINCE TIMER STOPS AT 0
     if (seconds/60===1){
         seconds=0;
         minutes++;
-        // MIN NUMBER RESET
+        // MIN NUMBER RESET // NOT REALLY NEEDED SINCE TIMER STOPS AT 0
         if(minutes/60===1){
             minutes =0;    //resets mins to 0
             hours++;    // increment hour by 1
